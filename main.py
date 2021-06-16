@@ -72,7 +72,7 @@ def new_random():
 		# Create a var to hold pass
 		my_password = ''
 
-		# Loop throught password length
+		# Loop through password length
 		for x in range(pw_length):
 			my_password += chr(randint(33,126))
 
